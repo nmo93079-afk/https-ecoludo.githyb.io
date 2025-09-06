@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>إيكو لودو - لعبة بيئية علمية للمدن</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #74b9ff, #0984e3);
+      color: #2d3436;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1671506567305-b4ad16b5d8a6?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1 class="text-5xl font-bold">إيكو لودو</h1>
+    <p class="mt-4 text-xl">لعبة بيئية علمية للمدن</p>
+  </div>
+</body>
+</html>
